@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite thread-count="1" name="Audit Service Smoke Suite" verbose="1" parallel="classes">
+    <test name="Testng Test">
+        <classes>
+            <class name="com.modulus.TestngTest"/>
+        </classes>
+    </test>
+</suite>
